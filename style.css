@@ -7,7 +7,6 @@ body{
 	margin-right: auto;
 	display: flexbox
 	}
-
 .main{
     width: 50%;
     margin-left: auto;
@@ -16,8 +15,6 @@ body{
     top: 0%;
     color: rgb(155, 155, 122);
     transition: 1s;
-
-
 }
 .main:hover{
     background: rgb(226, 226, 182);
@@ -26,19 +23,14 @@ body{
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	border-right: 2px solid black;
-	border-left: 2px solid black;
-	
-	
+	border-left: 2px solid black;		
 }
-
 ol{
-    float: left;
+	float: left;
 }
-
 ul{
     float: right;
 }
-
 #link{
     margin-left: auto;
     margin-right: auto;
@@ -49,11 +41,6 @@ ul{
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
-
 header{
 	padding: 1em;
 	color: rgb(0, 0, 0);
@@ -64,7 +51,6 @@ header{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	
 }
-
 /*.wrapper> div {
 	flex: 1;
 	text-align: center;
@@ -72,40 +58,31 @@ header{
 	
 }
 */
-
 nav {
 	display: block;
     max-width: auto;
     background-color: beige;
     margin: 0;
-    padding: 1em
-	
+    padding: 1em	
  }
-
  hr{
 	margin-top: 0.1px;
 	margin-bottom: 0.1px;
 	color: black;
  }
-
-
  a{ 
 	text-decoration: underline;
-    color: black
-	
+    color: black	
  }
-
  .wrapper{
 	padding: 3px;
 	border: 1px black;
  }
-
 footer{
 	color: black;
 	text-align: center;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .jopa{
 
 	border-radius: 20px;
@@ -114,56 +91,16 @@ footer{
 	background: rgb(226, 226, 182);
 	text-align: center;
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	border: 2px solid black;
-	
-	
+	border: 2px solid black;	
 }
-
 #jopa-left{
 	margin-left: 17%;
 	float: left;
 }
-
 #jopa-right{
 margin-right: 17%;
 float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container{
 	width: 300px;
 	height:300px;
@@ -180,7 +117,6 @@ float: right;
 	height:100%;
 	background:url(http://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/planet.png) no-repeat center center;
 }
-
 .rocket{
 	position:absolute;
 	top:0;
@@ -188,18 +124,14 @@ float: right;
 	width:100%;
 	height:100%;
 	background:url(http://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/rocket.png) no-repeat 50px center;
-
-
 	-webkit-animation:orbit 2s linear infinite;
 	animation:orbit 2s linear infinite;
-
 	transition:background-position 0.8s;
 }
 
 .container:hover .rocket{
 	background-position:80px center;
 }
-
 @-webkit-keyframes orbit {
 	from {
 		-webkit-transform:rotate(0deg);}
@@ -207,29 +139,20 @@ float: right;
 		-webkit-transform:rotate(360deg);
 	}
 }
-
 @keyframes orbit {
 	from {
 		transform:rotate(0deg);
-
-
-
 		-webkit-transform:rotate(0deg);}
 	to {
 		transform:rotate(360deg);
 		-webkit-transform:rotate(360deg);
 	}
 }
-
 HTML
-
 <div class="container">
     <p>This div has 20px on either side.</p>
-</div>
-        
+</div>     
 CSS
-
-
  .container{
 	width: calc(100% - 40px);
 
